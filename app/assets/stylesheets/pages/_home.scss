@@ -2,16 +2,24 @@
  * CSS code specific to home page
  * (margin/padding adjustments)
  * ------------------------------------- */
-
- #wrapper-home {
+ body {
   background-color: #FDBCAB;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
+}
+
+img {
+  height: auto;
+}
+
+#logo {
+  margin-top: 150px;
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
 #socials {
-  margin-top: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }
