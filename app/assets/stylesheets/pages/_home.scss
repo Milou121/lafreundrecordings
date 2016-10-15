@@ -9,14 +9,20 @@
 }
 
 .logo {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 #logo {
   margin-top: 150px;
   display: flex;
   justify-content: center;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the padding logo */
+
+@media screen and (max-height: 450px) {
+  #logo {margin-top: 50px;}
 }
 
 #socials {
