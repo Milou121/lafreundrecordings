@@ -19,10 +19,14 @@
   justify-content: center;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the padding logo */
 
-@media screen and (max-height: 450px) {
-  #logo {margin-top: 50px;}
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  #logo {margin-top: 75px;}
 }
 
 #socials {
