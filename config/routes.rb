@@ -4,4 +4,6 @@ Rails.application.routes.draw do
 get "/pages/:page" => "pages#show"
 
 root "pages#show", page: "home"
+
+get "promo", to: 'pages#promo'
 end
