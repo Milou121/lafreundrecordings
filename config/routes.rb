@@ -5,5 +5,5 @@ get "/pages/:page" => "pages#show"
 
 root "pages#show", page: "home"
 
-get "promo/duke-hugh-poly-valence", to: 'pages#promo'
+get "promo/sjamsoedin-orion-ep", to: 'pages#promo'
 end
